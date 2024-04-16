@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flexbox-movile.css">
+    <link rel="stylesheet" href="./css/flexbox-tablet.css">
+    <link rel="stylesheet" href="./css/flexbox-desktop.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <title> Challenge portfolio | ONE </title>
+</head>
+<body>
+    <!--!Menu de navegación -->
+    <header >
+        <nav class="cabecera__container">
+            <ul class="menu__lista">
+                
+                <li>
+                    <a class="menu__items" href="#info">
+                        <span>Sobre mí</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a class="menu__items" href="#skills">
+                        <span>Skills</span>
+                </a>
+            </li>
+            
+            <li>
+                <a class="menu__items" href="#formacion">
+                    <span>Formación</span>
+                </a>
+            </li>
+            <!--
+                *Seccion de Proyectos
+                <li>
+                <a class="menu__items" href="#">
+                    <span>Proyectos</span>
+                </a>
+            </li>
+        -->
+            
+            <li>
+                <a class="menu__items" href="#contacto">
+                    <span>Contacto</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <!--!Titulo y presentación -->
+    
+    <div class="container__body">
+        <h1 class="title">
+            Hola! Mi nombre es <span class="name">Florencia</span>
+        </h1>
+        
+        <p class="info__text">Soy desarrolladora front end apasionada por crear experiencias web cautivadoras. Experta en HTML, CSS, JavaScript y React, en busca de proyectos desafiantes.</p>
+
+        <ul class="redes__container">
+            <a href="https://github.com/FlorenciaOrtega82" class="container__link" target="_blank">
+                <li>Github</li>
+                <i class='icono__link'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/flor-ortega/"  class="container__link" target="_blank">
+                <li>Linkedin</li>
+                <i class='icono__link'></i>
+            </a>
+            <a href="./image/curriculum.pdf" class="container__link" target="_blank">
+                <li>Curriculum</li>
+                <i class='icono__link'></i>
+            </a>
+        </ul>
+        <!--!Sobre mi -->
+        <div class="info__container" id="info" name="info">
+            <h2>Sobre mí</h2>
+            <p class="info__text">
+                Hola! Soy Técnica Universitaria en Programación apasionada por la tecnología y el desarrollo de software. Tengo habilidades en HTML, CSS, JavaScript, y experiencia en Git y GitHub. Mi objetivo es adquirir experiencia laboral y seguir desarrollándome como desarrolladora de software, interesada en proyectos desafiantes y colaboración en la industria tecnológica.</p>
+        </div>
+        <!--!Skills -->
+        <div class="skills__container" id="skills" name="skills">
+            <h2>Skills</h2>
+            <ul class="icono__container">
+               <li class="container__icon"><i class="icono__html "></i></li>
+               <li class="container__icon"><i class="icono__css "></i></li>
+               <li class="container__icon"><i class="icono__js "></i></li>
+               <li class="container__icon"><i class="icono__react "></i></li>
+               <li class="container__icon"><i class="icono__tailwind "></i></li>
+               <li class="container__icon"><i class="icono__git "></i></li>
+            </ul>
+        </div>
+
+        <!--!Formación académica -->
+        <div class="formacion__container" id="formacion" name="formacion">
+            <h2>Formación académica</h2>
+            <ul>
+                <li class="escudo__container">
+                    <i class="icono__graduate"></i>
+                    <p class="formacion__titulo"><span class="establecimiento">Codo a Codo 4.0 -</span> Full Stack Python - <span class="date">2022</span> </p>
+                </li>
+
+                <li class="escudo__container">
+                    <i class="icono__graduate"></i>
+                    <p class="formacion__titulo"> <span class="establecimiento">UTN FRSR -</span> Técnicatura en programación - <span class="date-1">2023</span></p>
+                </li>
+                
+                <li class="escudo__container">
+                    <i class="icono__graduate"></i>
+                    <p class="formacion__titulo"><span class="establecimiento">Alura Latam -</span> FrontEnd - <span class="date-2">2024</span></p>
+                </li>
+            </ul>
+        </div>
+
+        <!--!Contacto -->
+        <div class="contacto__container" id="contacto" name="contacto">
+            <div class="text__container">
+                <h2>Contacto</h2>
+                <p>¿Quieres contactarme?</p>
+                <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+            </div>
+
+            <form action="https://formsubmit.co/faa0ef09353d8ae93535809ccacc5fb5" method="POST" class="form__container " id="formulario">
+
+                <div class="entrada formulario__grupo" id="grupo__nombre">
+                    <label for="nombre" class="formulario__label">Nombre Completo</label>
+                    <div class="formulario__grupo-input">
+                        <input type="text" class="formulario__input" name="nombre" id="nombre">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                </div>
+            
+                <div class="entrada formulario__grupo" id="grupo__correo">
+                    <label for="correo" class="formulario__label">E-mail</label>
+                    <div class="formulario__grupo-input">
+                        <input type="email" class="formulario__input" name="correo" id="correo">
+                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                    </div>
+                    <p class="formulario__input-error">El correo solo puede contener letras, números, puntos, guiones y guion bajo.</p>
+                </div>
+
+                <div class="entrada">
+                    <label for="asunto" class="formulario__label">Asunto</label>
+                    <input type="text" name="asunto" id="asunto">
+                </div>
+            
+                <div class="entrada">
+                    <label for="">Mensaje</label>
+                    <input type="text" name="mensaje">
+                </div>
+
+                <button type="submit" class="button__enviar formulario__btn" id="enviarFormulario">Enviar mensaje</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/Challenge-Portfolio/index.html">
+
+                <input type="hidden" name="_subject" value="Nuevo Mensaje del Portfolio!">
+            </form>
+        </div>
+
+
+
+    </div>
+    <!--!Footer -->
+    <footer class="footer__container">
+        <p>Desarrollado por Florencia Ortega</p>
+        <p>2024</p>
+    </footer>
+
+
+</body>
+</html>

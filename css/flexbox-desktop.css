@@ -1,0 +1,142 @@
+
+
+/*Media Queries Desktop*/
+@media (min-width:1024px) {
+
+    h2{
+        font-size: 35px;
+    }
+
+    /*?Menu cabecera*/
+    .menu__lista{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /*?Body principal*/
+    .container__body{
+        margin-left: 15rem;
+        margin-right: 15rem;
+        margin-top: 5rem;
+        font-size: 20px;
+    }
+    
+    .redes__container{
+        display: flex;
+        margin-top: 1rem;
+        gap: 2.5rem;
+    }
+    
+    .container__link{
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+    }
+    
+    .info__container{
+        margin-top: 5rem;
+        padding: 2%;
+    }
+
+    /*?CONTAINER SKILLS*/
+    .skills__container{
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .icono__container{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .container__icon{
+        width: 6rem;
+    }
+
+    /*?FORMACION */
+    .formacion__container{
+        margin-top: 5rem;
+        text-align: center;
+    }
+    
+    .escudo__container{
+        border-radius: 2%;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .icono__graduate{
+        margin-left: 3rem;
+    }
+    .date{
+        margin-left: 15rem;
+    }
+    .date-1{
+        margin-left: 11rem;
+    }
+    .date-2{
+        margin-left: 23rem;
+    }
+    .establecimiento{
+        margin-right: 10px;
+    }
+    
+    .formacion__titulo{
+        font-size: 24px;
+    }
+
+    /*?Contacto/ formulario*/
+    .contacto__container{
+        border-radius: 2%;
+        margin-top: 3rem;
+        background-color: rgba(105, 90, 138, 0.245);
+    }
+    
+    .text__container{
+        padding-top: 30px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        text-align: justify;
+    }
+
+    .text__container p{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .form__container{
+        text-align: center;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .button__enviar{
+        width: 70%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .entrada label{
+        display: flex;
+        margin-bottom: 5px;
+        padding-top: 20px;
+    }
+     .entrada input{
+        width: 100%;
+    }
+
+    /*?FOOTER*/
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        padding: 20px;
+    }
+
+ }
+

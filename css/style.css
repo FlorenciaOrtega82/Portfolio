@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    font-family: "Tilt Neon", sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*?Menu cabecera*/
+.cabecera__container{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    padding: 0 25px;
+}
+
+.menu__lista{
+    font-size: 20px;
+    padding: 30px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+/*?Body principal*/
+.title{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.name{
+    color: rgb(105, 90, 138);
+}
+
+.icono__link::after {
+    content: url(../image/bx-link-external.svg);
+}
+
+/*?Sobre mi*/
+.info__container{
+    background: rgba(105, 90, 138, 0.245);
+    text-align: justify;
+    border-radius: 2%;
+}
+
+h2{
+    margin-bottom: .5rem;
+    color: #221E22;
+}
+
+p{
+    font-size: 22px;
+}
+
+
+/*?Skills*/
+.container__icon{
+    background-color: rgba(105, 90, 138, 0.245);
+    border-radius: 7px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.icono__html::after {
+    content: url(../image/bxl-html5.svg);
+}
+.icono__css::after {
+    content: url(../image/bxl-css3.svg);
+}
+.icono__js::after {
+    content: url(../image/bxl-javascript.svg);
+}
+.icono__react::after {
+    content: url(../image/bxl-react.svg);
+}
+.icono__tailwind::after {
+    content: url(../image/bxl-tailwind-css.svg);
+}
+.icono__git::after {
+    content: url(../image/bxl-git.svg);
+}
+
+/*?Formacion academica*/
+.icono__graduate::after {
+    content: url(../image/bxs-graduation.svg);
+}
+
+.escudo__container{
+    background-color: rgba(105, 90, 138, 0.245);
+    gap: 10px;
+}
+    
+.formacion__titulo{
+    font-weight: bold;
+}
+
+.establecimiento{
+    color: rebeccapurple;
+}
+
+/*?Contacto/ formulario*/
+.contacto__container{
+    border-radius: 2%;
+    margin-top: 3rem;
+    background-color: rgba(105, 90, 138, 0.245);
+}
+
+.text__container{
+    padding-top: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: justify;
+}
+
+.text__container p{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.form__container{
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.button__enviar{
+    background: #6b43ff;
+    color: #fff;
+    border: none;
+    line-height: 50px;
+    font-size: 18px;
+    letter-spacing: .15rem;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.button__enviar:hover{
+    background: #5222fd;
+}
+
+.entrada label{
+    color: rebeccapurple;
+}
+
+ .entrada input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #808080;
+    font-size: 20px;
+    outline: none;
+    color: #383838;
+}
+
+
+/*?Footer*/
+.footer__container{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(105, 90, 138, 0.245);
+}
+
+/*?Hovers*/
+a:hover{
+    color: rgb(105, 90, 138);
+    transition: .5s;
+}
+
+.entrada input:focus{
+    border-color: rebeccapurple;
+}
+

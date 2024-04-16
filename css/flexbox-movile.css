@@ -1,0 +1,119 @@
+
+
+/*Media Queries Movile*/
+@media (min-width:390px)  {
+
+
+/*?Menu cabecera*/
+.menu__lista{
+    display: flex;
+    justify-content: space-around;
+}
+/*?Body principal*/
+.container__body{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.redes__container{
+    display: flex;
+    margin-top: 1rem;
+    gap: 2.5rem;
+}
+
+.container__link{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+
+.info__text{
+    font-size: 18px;
+}
+
+.info__container{
+    margin-top: 5rem;
+    padding: 2%;
+}
+/*?CONTAINER SKILLS*/
+.skills__container{
+    margin-top: 3rem;
+    text-align: center;
+}
+.icono__container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.container__icon{
+    width: 4.5rem;
+}
+/*?FORMACION */
+.formacion__container{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.escudo__container{
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+.establecimiento{
+    margin-right: 10px;
+}
+.formacion__titulo{
+    font-size: 16px;
+}
+
+/*?Contacto/ formulario*/
+.contacto__container{
+    border-radius: 2%;
+    margin-top: 3rem;
+    background-color: rgba(105, 90, 138, 0.245);
+}
+
+.text__container{
+    padding-top: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: justify;
+}
+.text__container p{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.form__container{
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.button__enviar{
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.entrada label{
+    display: flex;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+ .entrada input{
+    width: 100%;
+}
+/*?FOOTER*/
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 20px;
+}
+
+
+
+}
