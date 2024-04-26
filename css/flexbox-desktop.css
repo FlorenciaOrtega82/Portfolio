@@ -38,6 +38,11 @@
         padding: 2%;
     }
 
+    .info__text{
+        font-size: 18px;
+        font-weight: 200;
+    }
+
     /*?CONTAINER SKILLS*/
     .skills__container{
         margin-top: 5rem;
