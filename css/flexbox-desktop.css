@@ -95,13 +95,37 @@
         font-size: 24px;
     }
 
+    /*? Experiencis profesional*/
+    .contenido__proyecto__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgba(105, 90, 138, 0.245);
+        margin-top: 1rem;
+        padding: 10px;
+        border-radius: 2%;
+    }
+    
+    .contenido__container{
+        text-align: justify;
+        margin-left: 0.5rem ;
+    }
+    .imagen__proyecto{
+        max-height: 16rem;
+        max-width: 33rem;
+    }
+    
+    .descripcion__proyecto{
+        font-size: 15px;
+    }
+
     /*?Contacto/ formulario*/
     .contacto__container{
         border-radius: 2%;
         margin-top: 3rem;
         background-color: rgba(105, 90, 138, 0.245);
     }
-    
+
     .text__container{
         padding-top: 30px;
         margin-left: 3rem;

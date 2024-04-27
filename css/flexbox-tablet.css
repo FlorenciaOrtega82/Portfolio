@@ -68,7 +68,24 @@
     .establecimiento{
         margin-right: 10px;
     }
+    /*? Experiencis profesional*/
+    .contenido__proyecto__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgba(105, 90, 138, 0.245);
+        margin-top: 1rem;
+        padding: 10px;
+        border-radius: 2%;
+    }
     
+    .contenido__container{
+        text-align: justify;
+    }
+
+    .imagen__proyecto{
+        width: 20rem;
+    }
     /*?Contacto/ formulario*/
     .contacto__container{
         border-radius: 2%;

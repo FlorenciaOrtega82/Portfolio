@@ -79,6 +79,35 @@ h2{
 .formacion__titulo{
     font-size: 14px;
 }
+/*? Experiencis profesional*/
+.contenido__proyecto__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(105, 90, 138, 0.245);
+    margin-top: 1rem;
+    padding: 5px;
+    border-radius: 2%;
+}
+
+.imagen__proyecto{
+    max-height: 14rem;
+    max-width: 30rem;
+}
+
+.titulo__proyecto{
+    font-size: 18px;
+}
+.descripcion__proyecto{
+    font-size: 16px;
+}
+.contenido__container{
+    text-align: justify;
+}
+
+.imagen__proyecto{
+    width: 20rem;
+}
 
 /*?Contacto/ formulario*/
 .contacto__container{

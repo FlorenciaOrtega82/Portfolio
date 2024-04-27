@@ -102,6 +102,32 @@ p{
     color: rebeccapurple;
 }
 
+
+/*? Experiencia profecional*/
+
+.proyecto__container{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.boton__proyecto{
+    padding: 5px;
+    margin-top: 1rem;
+    border-radius: 2px;
+}
+.demo{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.repositorio{
+    font-weight: bolder;
+    margin-right: 5px;
+    border: 0.7px solid rebeccapurple;
+    color: rebeccapurple;
+}
+
+
 /*?Contacto/ formulario*/
 .contacto__container{
     border-radius: 2%;
@@ -166,6 +192,7 @@ p{
 }
 
 /*?Hovers*/
+
 a:hover{
     color: rgb(105, 90, 138);
     transition: .4s;
@@ -179,3 +206,6 @@ a:hover{
     border-bottom: 2px solid rgba(102, 51, 153, 0.518);
 }
 
+.repositorio:hover{
+    border: 1px solid rgb(155, 74, 236);
+}
