@@ -11,6 +11,7 @@
     .menu__lista{
         display: flex;
         justify-content: space-evenly;
+        font-size: 17px;
     }
 
     /*?Body principal*/

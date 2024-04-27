@@ -168,10 +168,14 @@ p{
 /*?Hovers*/
 a:hover{
     color: rgb(105, 90, 138);
-    transition: .5s;
+    transition: .4s;
 }
 
 .entrada input:focus{
     border-color: rebeccapurple;
+}
+
+.menu__items>span:hover{
+    border-bottom: 2px solid rgba(102, 51, 153, 0.518);
 }
 

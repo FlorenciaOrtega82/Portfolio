@@ -7,7 +7,7 @@
 /*?Menu cabecera*/
 .menu__lista{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 16px;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .info__text{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .info__container{
